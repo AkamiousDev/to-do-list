@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Nerko One", cursive;
+}
+
+header {
+    background-color: #2ba2da;
+    padding: 16px 0;
+    color: #fff;
+    display: flex;
+    border-bottom: 4px solid #0e5575;
+    justify-content: center;
+}
+
+header button {
+    margin-left: 16px;
+}
+
+form {
+    background-color: #c8d6e5;
+    padding: 24px 0;
+    text-align: center;
+    display: none;
+}
+
+form h2 {
+    margin-bottom: 16px;
+}
+
+input,
+button {
+    padding: 6px;
+}
+
+button {
+    border: none;
+    font-weight: bold;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+ul li {
+    text-align: center;
+    font-size: 25px;
+}
+
+.done {
+    text-decoration: line-through;
+}
+
+
